@@ -1,27 +1,26 @@
     body {
-        background-image: url('https://images.pexels.com/photos/6801874/pexels-photo-6801874.jpeg?cs=srgb&dl=pexels-anna-nekrashevich-6801874.jpg&fm=jpg');
-        background-color: black;
+        /*  background-image: url('https://images.pexels.com/photos/6801874/pexels-photo-6801874.jpeg?cs=srgb&dl=pexels-anna-nekrashevich-6801874.jpg&fm=jpg'); */
+        background-color: rgb(255, 255, 255);
         background-repeat: no-repeat !important;
         background-size: cover;
         width: 100% auto;
         height: 100vh;
     }
-    
-    .img-overlay {
+    /* .img-overlay {
         background-color: rgba(0, 0, 0, 0.7);
         background-size: cover;
         width: 100% auto;
         height: 100vh;
-    }
+    }*/
     
     h1,
     h3 {
         text-align: center;
-        color: white;
+        color: rgb(0, 0, 0);
     }
     
     h3 {
-        padding-top: 200px;
+        padding-top: 150px;
         line-height: 50px;
         font-weight: 300;
     }
@@ -32,24 +31,24 @@
     
     @media only screen and (max-width: 720px) {
         body {
-            background-image: url('https://images.pexels.com/photos/6801874/pexels-photo-6801874.jpeg?cs=srgb&dl=pexels-anna-nekrashevich-6801874.jpg&fm=jpg');
-            background-color: black;
+            /*  background-image: url('https://images.pexels.com/photos/6801874/pexels-photo-6801874.jpeg?cs=srgb&dl=pexels-anna-nekrashevich-6801874.jpg&fm=jpg');*/
+            background-color: rgb(255, 255, 255);
             background-repeat: no-repeat !important;
             background-size: cover;
             width: 100% auto;
             height: 100%;
         }
-        .img-overlay {
+        /* .img-overlay {
             background-color: rgba(0, 0, 0, 0.7);
             background-size: cover;
             width: 100% auto;
             height: 100%;
             padding-bottom: 100px;
-        }
+        } */
         h1,
         h3 {
             text-align: center;
-            color: white;
+            color: rgb(0, 0, 0);
         }
         h3 {
             font-size: 25px;
