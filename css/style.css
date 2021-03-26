@@ -1,14 +1,11 @@
     section {
         background-image: url('https://images.pexels.com/photos/6801874/pexels-photo-6801874.jpeg?cs=srgb&dl=pexels-anna-nekrashevich-6801874.jpg&fm=jpg');
-        /*background-image: url('https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?cs=srgb&dl=pexels-alex-knight-2599244.jpg&fm=jpg');*/
         background-color: black;
         background-repeat: no-repeat !important;
         background-size: cover;
         width: 100% auto;
         height: 100vh;
     }
-    
-    .navbar-brand {}
     
     .img-overlay {
         background-color: rgba(0, 0, 0, 0.7);
@@ -29,6 +26,6 @@
     }
     
     .navbar-brand {
-        padding-left: 130px;
+        padding-left: 120px;
         padding-top: 50px;
     }
